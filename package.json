@@ -2,7 +2,7 @@
   "name": "Nike",
   "version": "1.0.0",
   "description": "Clone of nike's single product page",
-  "private": "true",
+  "private": "True",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --watch"
@@ -27,6 +27,11 @@
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
     "babel-preset-react": "^6.24.1",
+    "eslint": "^5.2.0",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.10.0",
     "html-webpack-plugin": "^3.2.0",
     "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.5"
